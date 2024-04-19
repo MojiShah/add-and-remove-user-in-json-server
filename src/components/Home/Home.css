@@ -1,0 +1,28 @@
+.wrapper{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('../../../public/img/Second.jpeg') center center/cover;
+}
+
+.selection{
+    width: 50%;
+    height: 30%;
+    border:5px solid #fff;
+    background-color: rgba(255,255,255,0.3);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.selection-btn{
+    padding: 15px 40px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    border: 3px solid black;
+    cursor: pointer;
+}
+
+

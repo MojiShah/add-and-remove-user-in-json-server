@@ -1,0 +1,32 @@
+.deletePage{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: coral;
+}
+
+.form{
+    width: 20%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border:1px solid black;
+    background-color: antiquewhite;
+    opacity: 0.7;
+}
+
+.form input{
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.1rem;
+}
+
+.form button{
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    border-radius: 5px;
+}

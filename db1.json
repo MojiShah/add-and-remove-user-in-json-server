@@ -1,0 +1,128 @@
+{
+  "courses": [
+    {
+      "id": "1",
+      "title": "json-server",
+      "teacher": "typicode",
+      "views": 189,
+      "details": {
+        "time": "12:03",
+        "studentsCount": 98,
+        "num": 50
+      }
+    },
+    {
+      "id": "2",
+      "title": "what is npm",
+      "teacher": "mojtaba_charchian",
+      "views": 200
+    },
+    {
+      "id": "3",
+      "title": "learn react js",
+      "teacher": "mohammadJavad_charchian",
+      "views": 90
+    },
+    {
+      "id": "4",
+      "title": "learn vue js",
+      "teacher": "mojtaba_charchian",
+      "views": 302
+    },
+    {
+      "id": "5",
+      "title": "vue js",
+      "teacher": "mojtaba_charchian",
+      "views": 182
+    },
+    {
+      "id": "6",
+      "title": "Node js",
+      "teacher": "mojtaba_charchian",
+      "views": 99
+    },
+    {
+      "id": "7",
+      "title": "Js Ex",
+      "teacher": "mojtaba_charchian",
+      "views": 982
+    },
+    {
+      "id": "8",
+      "title": "Black JS",
+      "teacher": "mohammadJavad_charchian",
+      "views": 19
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "body": "some comment",
+      "courseId": 1
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "name": "amin",
+      "age": 23
+    },
+    {
+      "id": "2",
+      "name": "Hossein",
+      "age": 25
+    },
+    {
+      "id": "3",
+      "name": "zahra",
+      "age": 18
+    },
+    {
+      "id": 0,
+      "name": "sfsdf",
+      "age": "5"
+    },
+    {
+      "id": 22,
+      "name": "sdhtyjgy",
+      "age": "45"
+    }
+  ],
+  "articles": [
+    {
+      "id": "1",
+      "title": "what in vue js",
+      "author": "mojtaba_charchian"
+    },
+    {
+      "id": "2",
+      "title": "clean code in js",
+      "author": "mohammadJavad_charchian"
+    },
+    {
+      "id": "3",
+      "title": "live-server extension",
+      "author": "ehsan_manzari"
+    }
+  ],
+  "discounts": [
+    {
+      "id": "1",
+      "title": "react50",
+      "percent": 50,
+      "creator": "mojtaba_charchian"
+    },
+    {
+      "id": "2",
+      "title": "node50rad",
+      "percent": 50,
+      "creator": "mohammadJavad_charchian"
+    },
+    {
+      "id": "3",
+      "title": "jdfndfbnj",
+      "percent": 45,
+      "creator": "ehsan_manzari"
+    }
+  ]
+}
