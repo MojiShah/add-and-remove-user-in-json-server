@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './DeleteData.css';
+import Swal from 'sweetalert2';
 
 export default function DeleteData() {
 
@@ -11,6 +12,21 @@ export default function DeleteData() {
       method: 'DELETE'
     });
     console.log(res);
+
+    if (res.status === 200){
+      Swal.fire({
+        title: "Good job!",
+        text: "User removed successfully!!",
+        icon: "success"
+      });
+    }else{
+      Swal.fire({
+        icon: "error",
+        title: "Oops...",
+        text: "Something went wrong!",
+        footer: '<a href="#">Why do I have this issue?</a>'
+      });
+    }
   }
 
   return (
